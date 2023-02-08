@@ -2,7 +2,7 @@
 
 ## Q1.
 
-Answer 1
+API is stand for application programming interface, it is a software interface that helps machines to interact with each other over the internet. Working behind the scene, API acts as a messenger that take request and tell the system what you want to do and return the response to you.
 
 ## Q2.
 
