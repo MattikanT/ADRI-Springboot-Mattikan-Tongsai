@@ -6,7 +6,7 @@ API is stand for application programming interface, it is a software interface t
 
 ## Q2.
 
-Answer 2
+Git makes coding work eaier among developers in a team. It is a version control system that enables collaboration and code modifications in a shared file. While also maintains the record and enables many users to view and follow who made modifications to the file and when.
 
 ## Q3.
 
