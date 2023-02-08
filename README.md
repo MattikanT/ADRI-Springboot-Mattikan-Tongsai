@@ -14,4 +14,4 @@ Answer 3
 
 ## Q4.
 
-Answer 3
+Clean code is a skill that all developers should develop in order to make your codes more simple, clean, organize and easy to understand by any experience developer. With the clean writing will help developers to read, modify and maintain the code easier on a daily basis and later on.
