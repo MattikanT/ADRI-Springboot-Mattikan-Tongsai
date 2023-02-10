@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class controller {
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String greeting(){
         return "Hello message";
     }
