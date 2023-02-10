@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mysqldb:
+    image: mysql:5.7.36
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: intern123
+      MYSQL_DATABASE: adri
+      MYSQL_USER: intern
+      MYSQL_PASSWORD: intern123
+    ports:
+      - "3306:3306"
+    volumes:
+    - ./initialize-db.sql:/docker-entrypoint-initdb.d/dump.sql
+volumes:
+  data:
+
