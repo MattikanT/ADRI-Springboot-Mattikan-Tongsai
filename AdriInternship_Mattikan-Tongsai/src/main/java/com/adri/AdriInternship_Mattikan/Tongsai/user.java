@@ -5,25 +5,37 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 @Entity
+@Table(name="user")
 public class user {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column( name="user_id")
     private long id;
 
-    @Column( nullable = false, unique = true)
-    private String user_name;
+    @Column( name="user_name",nullable = false, unique = true)
+    private String userName;
     
-    @Column(nullable = false)
+    @Column(name="email", nullable = false)
     private String email;
 
-    @Column(nullable = false)
+    @Column(name="information", nullable = false)
     private String information;
 
     public long getId() {
         return id;
+    }
+    public String getUserName(){
+        return userName;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public String getInformation(){
+        return information;
     }
 }
