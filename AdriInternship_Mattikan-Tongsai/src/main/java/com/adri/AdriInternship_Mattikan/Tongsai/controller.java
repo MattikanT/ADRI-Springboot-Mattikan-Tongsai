@@ -24,19 +24,19 @@ public class controller {
     private UserRepository userRepository;
 
     @GetMapping("/{user_name}")
-    public User findOne(@PathVariable String user_name){
+    public AdriUser findOne(@PathVariable String user_name){
         return userRepository.findByUserName(user_name);
     }
 
     
     @PostMapping
     //@ResponseStatus(HttpSta.CREATED)
-    public User create(@RequestBody User user) {
+    public AdriUser create(@RequestBody AdriUser user) {
         return userRepository.save(user);
     }
 
     @PutMapping("/update_user")
-    public User updateUser(@RequestBody User user, @RequestParam Long id) {
+    public AdriUser updateUser(@RequestBody AdriUser user, @RequestParam Long id) {
         if (user.getId() != id) {
           throw new IllegalArgumentException("User Id doesnt exist");
         }
