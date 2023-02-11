@@ -2,7 +2,7 @@
 
 ## Q1.
 
-API is stand for application programming interface, it is a software interface that helps machines to interact with each other over the internet. Working behind the scene, API acts as a messenger that take request and tell the system what you want to do and return the response to you.
+API stands for application programming interface, it is a software interface that helps machines interact with each other over the internet. Working behind the scenes, API acts as a messenger that takes requests, tells the system what you want it to do, and returns the response to you.
 
 ## Q2.
 
@@ -11,8 +11,8 @@ SQL and NoSQL are different in terms of database type, structure, scalability, s
 
 ## Q3.
 
-Git makes coding work eaier among developers in a team. It is a version control system that enables collaboration and code modifications in a shared file. While also maintains the record and enables many users to view and follow who made modifications to the file and when.
+Git makes coding work easier among developers in a team. It is a version control system that enables collaboration and code modifications in a shared file. While also maintaining the record and enabling many users to view and follow who made modifications to the file and when.
 
 ## Q4.
 
-Clean code is a skill that all developers should develop in order to make your codes more simple, clean, organize and easy to understand by any experience developer. With the clean writing will help developers to read, modify and maintain the code easier on a daily basis and later on.
+Clean code is a skill that all developers should develop in order to make their codes more simple, clean, organized, and easy to understand by any experienced developer. The clean writing will help developers read, modify, and maintain the code easier on a daily basis and later on.
