@@ -6,11 +6,12 @@ API is stand for application programming interface, it is a software interface t
 
 ## Q2.
 
-Git makes coding work eaier among developers in a team. It is a version control system that enables collaboration and code modifications in a shared file. While also maintains the record and enables many users to view and follow who made modifications to the file and when.
+SQL and NoSQL are different in terms of database type, structure, scalability, schema, etc. Which to choose depends on the requirements and the data you're working with. SQL is suitable for data that needs reliability, consistency, and integrity. It's a relational database, which stores data in a structure of columns and rows. Using RDBMS to execute, retrieve, or edit data by creating, updating, or deleting using SQL commands. NoSQL is an unstructured database that stores data in a formatted form while handling large amounts of unstructured data in a more efficient and user-friendly manner. It offers greater flexibility in storing, which can be stored in the form of a document, graph, key-value, or column-family.
+
 
 ## Q3.
 
-Answer 3
+Git makes coding work eaier among developers in a team. It is a version control system that enables collaboration and code modifications in a shared file. While also maintains the record and enables many users to view and follow who made modifications to the file and when.
 
 ## Q4.
 
